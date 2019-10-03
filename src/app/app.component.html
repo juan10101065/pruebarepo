@@ -1,0 +1,26 @@
+<h1>PRUEBA DE RUTAS</h1>
+
+<ul>
+  <li>
+    <h2><a [routerLink]="['/']">Abrir Home</a> </h2>
+  </li>
+  <li>
+    <h2><a [routerLink]="['/componente1']">Componente 1</a> </h2>
+  </li>
+  <li>
+    <h2><a [routerLink]="['/componente2']">Componente 2</a> </h2>
+  </li>
+  <li>
+    <h2><a [routerLink]="['/componente22']">Componente 22</a> </h2>
+  </li>
+  <li>
+    <h2><a [routerLink]="['/componente1',69]">1 parametro</a> </h2>
+  </li>
+  <li>
+    <h2><a [routerLink]="['/componente2',65,50]">2 parametro</a> </h2>
+  </li>
+</ul>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
